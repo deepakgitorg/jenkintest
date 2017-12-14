@@ -21,9 +21,9 @@ pipeline{
 				echo 'Test Automation'
 			}
 		}
-		stage('Test Automation'){
+		stage('Deployment'){
 			steps{
-				echo 'Test Automation'
+				echo 'Deployment'
 			}
 		}
 	
